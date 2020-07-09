@@ -1,0 +1,36 @@
+{
+  "name": "reason-date-fns",
+  "version": "0.10.4",
+  "type": "module",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "ReasonML",
+    "Reason",
+    "date-fns-tz",
+    "BuckleScript"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmtrKovalenko/reason-date-fns/issues"
+  },
+  "homepage": "https://github.com/dmtrKovalenko/reason-date-fns",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmtrKovalenko/reason-date-fns"
+  },
+  "author": {
+    "name": "Leon Software"
+  },
+  "peerDependencies": {
+    "date-fns": "^2.8.1",
+    "date-fns-tz": "^1.0.10"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.2.1"
+  }
+}
