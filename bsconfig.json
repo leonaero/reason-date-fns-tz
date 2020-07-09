@@ -1,13 +1,16 @@
 {
   "name": "reason-date-fns-tz",
   "version": "1.0.9",
+  "reason": {
+    "react-jsx": 3
+  },
   "sources": {
     "dir": "src",
     "subdirs": true
   },
   "package-specs": {
     "module": "es6",
-    "in-source": false
+    "in-source": true
   },
   "suffix": ".bs.js",
   "bs-dependencies": [],
